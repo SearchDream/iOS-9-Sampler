@@ -1,5 +1,13 @@
 # iOS-9-Sampler
 
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+)](http://mit-license.org)
+
+
 Code examples for the new features of iOS 9.
 
 
@@ -32,7 +40,7 @@ New filters of CIFilter which can be used for Still Images.
 
 <img src="ResourcesForREADME/imagefilters.gif">
 
-**NOTE:** 29 filters are supported in this example, however **"CIEdgeWork" and "CISpotLight" don't work correctly** with current code. I would much appreciated your pull request!
+**NOTE:** 29 filters are supported in this example, however **"CISpotLight" don't work correctly** with current code. I would much appreciated your pull request!
 
 
 ###Audio Unit Component Manager
@@ -75,6 +83,12 @@ Fetch photos filtered with new subtypes `PHAssetCollectionSubtype.SmartAlbumSelf
 <img src="ResourcesForREADME/stringtransform.jpg" width="200">
 
 
+###Core Image Transitions
+
+New transition effects which are added to `CITransitionCategory`.
+
+![](ResourcesForREADME/ripple.gif)
+
 ###Search APIs
 
 Example for Search APIs using NSUserActivity and **Core Spotlight**.
@@ -115,18 +129,58 @@ Gallery of **31 new fonts**.
 <img src="ResourcesForREADME/fonts.jpg" width="200">
 
 
+###Contacts (Created by [manhattan918](https://github.com/manhattan918))
+
+Contacts framework sample.
+
+<img src="ResourcesForREADME/contacts.jpg" width="200">
+
+
+###ReplayKit (Created by [manhattan918](https://github.com/manhattan918))
+
+ReplayKit framework sample.
+
+<img src="ResourcesForREADME/replaykit.jpg" width="200">
+
+
+###Quick Actions (3D Touch)  
+
+Press the Icon on Home screen deeply, so you can access to the shortcut menu.
+
+<img src="ResourcesForREADME/shortcut.jpg" width="200">
+
+Please see `UIApplicationShortcutItems` key in Info.plist and `application:performActionForShortcutItem:completionHandler:` method in AppDelegate to know how it's implemented.
+
+**NOTE:** Your device have to support 3D Touch.
+
+###Force Touch (3D Touch)
+
+Visualize the forces of touches using new properties of UITouch `force` and `maximumPossibleForce`.
+
+![](ResourcesForREADME/forcetouch.gif)
+
+**NOTE:** Your device have to support 3D Touch.
+
 ##watchOS-2-Sampler
 
 You can check the **examples for watchOS 2** features on [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)!!
 
 <a href="https://github.com/shu223/watchOS-2-Sampler"><img src="ResourcesForREADME/watchos2sampler.jpg" width="200"></a>
 
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/animation.gif" align="left" hspace="1">
+
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/tableanim.gif" align="left" hspace="1">
+
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/crownanim.gif" align="left" hspace="1">
+
+<br clear="both">
+
 - https://github.com/shu223/watchOS-2-Sampler
 
 
 ##Author
 
-Shuichi Tsutsumi (Freelance iOS engineer)
+**Shuichi Tsutsumi** (Freelance iOS engineer)
 
 - [Twitter](https://twitter.com/shu223)
 - [Facebook](https://www.facebook.com/shuichi.tsutsumi)
@@ -135,4 +189,4 @@ Shuichi Tsutsumi (Freelance iOS engineer)
 
 ##Special Thanks
 
-The icon is **designed by [Okazu](https://www.facebook.com/pashimo)**
+The icon is designed by [Okazu](https://www.facebook.com/pashimo)
